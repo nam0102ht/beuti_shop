@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        var arr = [];
+        for(let i =0;i< 36;i++){
+            arr[i] = "https://cdn.tgdd.vn/Products/Images/42/212116/Image360/oppo-a5-2020-128gb-org-"+(i+1)+".jpg";
+        }
+        console.log(arr);
+        $(document).ready(function(){
+            for(let i=0; i<36;i++){
+                setTimeout(function(){ 
+                    $("#src").attr("src", arr[i]);
+                }, 100);
+            }
+        });
+    </script>
+    <a class="tgdd360 desktop" id="spintgdd" href="//cdn.tgdd.vn/Products/Images/42/212116/Image360/oppo-a5-2020-128gb-org-36.jpg" data-tgdd360-options="autospin: infinite; autospin-direction: anticlockwise; autospin-start: load,click;filename:oppo-a5-2020-128gb-org-{col}.jpg;magnify-filename:oppo-a5-2020-128gb-org-{col}.jpg;columns:36" style="user-select: none; -webkit-tap-highlight-color: transparent; display: inline-block; overflow: hidden; position: relative; text-decoration: none; color: rgb(0, 0, 0); height: 100%; outline: none;">
+        <img id="src" data-src="//cdn.tgdd.vn/Products/Images/42/212116/Image360/oppo-a5-2020-128gb-org-36.jpg"  src="https://cdn.tgdd.vn/Products/Images/42/212116/Image360/oppo-a5-2020-128gb-org-9.jpg" style="width: 100%;">
+        <div class="tgdd360-button fullscreen">
+
+        </div>
+        <div style="color: red; position: absolute; bottom: 0px; right: 0px; font-size: 0.8em; z-index: 100;">
+    
+        </div>
+    </a>
+</body>
+</html>

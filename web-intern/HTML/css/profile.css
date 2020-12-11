@@ -1,0 +1,155 @@
+* {}
+
+.tabcare {
+    /* margin-top: 63%; */
+}
+
+.nav-link.linkcare {
+    font-size: 14px;
+    color: black;
+    border: none;
+}
+
+.nav-link.linkcare.active {
+    font-size: 14px;
+    color: #eb6e8c;
+    border: none;
+    /* outline: none; */
+}
+
+#_mainprofile ul#myTab {
+    margin-bottom: 1%;
+    border: none;
+}
+
+#_mainprofile div#myTabContent {
+    /* margin-bottom: 20%; */
+}
+
+#_mainprofile .care {
+    font-size: 14px;
+    color: #eb6e8c;
+    margin-left: 1.8%;
+}
+
+#_mainprofile .beconcerned {
+    font-size: 14px;
+    color: #eb6e8c;
+    padding-left: 20px;
+}
+
+.sm10pro i {
+    padding-right: 5px;
+}
+
+.rownavpro a.nav-link.linkpro {
+    font-size: 14px;
+    color: black;
+}
+
+.rownavpro a.nav-link.active.linkpro {
+    font-size: 14px;
+    color: #eb6e8c;
+}
+
+a.nav-link .linkpro {
+    color: black;
+}
+
+.navprofile .navlinkprofile {
+    color: black;
+    font-size: 13px;
+}
+
+.navprofile .active.navlinkprofile {
+    color: #eb6e8c !important;
+    font-size: 14px;
+}
+
+#_mainprofile nav.nav.flex-column {
+    margin-top: 23%;
+}
+
+ul.listpro {
+    list-style: none;
+    padding: 0;
+    padding-top: 29%;
+}
+
+#_mainprofile input.imputcover {
+    position: absolute;
+    top: 2%;
+    left: 514%;
+    font-size: 11px;
+}
+
+#_mainprofile .row.rownavpro {
+    margin-top: 2%;
+}
+
+#_mainprofile .textinfo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input.imputavt {
+    font-size: 11px;
+    border: none !important;
+    /* background: none !important; */
+}
+
+#_mainprofile form.formimages {
+    margin-left: 29%;
+    margin-top: 8%;
+}
+
+#_mainprofile img.imgavt.img-fluid {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin-top: 20%; */
+    margin: auto 20%;
+    margin-left: 24%;
+    margin-top: 23%;
+    /* text-align: center; */
+}
+
+#_mainprofile .layer2 {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 18%;
+    height: 100% !important;
+    background-color: #0000007d;
+    height: 333px;
+}
+
+#_mainprofile .row.rowimg {
+    padding: 0;
+    margin: 0;
+}
+
+#_mainprofile img.imgcover {
+    width: 100%;
+}
+
+#_mainprofile .layer1 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 333px;
+}
+
+#_mainprofile ._info {
+    width: 100%;
+    position: relative;
+    height: 333px;
+}
+
+#_mainprofile {
+    margin-top: 5.8%;
+}

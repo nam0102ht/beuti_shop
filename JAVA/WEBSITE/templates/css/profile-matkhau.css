@@ -1,0 +1,40 @@
+* {}
+
+.sm10pro h3 {
+    font-size: 32px;
+    color: #eb6e8c;
+}
+
+i.fas.fa-lock {
+    display: block;
+    margin-left: 94%;
+    transform: translateY(28px);
+    /* z-index: 21; */
+    /* top: 0; */
+    color: #eb6e8c;
+}
+
+.form-group.has-feedback {
+    /* width: 262px; */
+}
+
+input#ConfirmNewPassword {
+    margin-top: 0%;
+}
+
+input#bt_submit {
+    background: #eb6e8c !important;
+    font-size: 14px;
+}
+
+#_mainprofile fieldset {
+    margin-bottom: 18%;
+}
+
+fieldset span.waves-input-wrapper.waves-effect.waves-light {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -2%;
+    z-index: 20;
+}

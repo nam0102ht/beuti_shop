@@ -1,0 +1,57 @@
+* {}
+
+._mainlocation .card.text-left {
+    margin-top: 25px;
+}
+
+._mainlocation .morer {
+    text-align: center;
+}
+
+._mainlocation button.btn.btn-success.waves-effect.waves-light {
+    text-align: center;
+    background: #eb6e8c !important;
+    margin-top: 27px;
+}
+
+h4.titdiachi {
+    /* font-size: 40px; */
+    /* text-transform: uppercase; */
+    /* text-align: center; */
+    font-size: 22px;
+    color: #eb6e8c;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3% !important;
+}
+
+h4.card-title.namloca {
+    margin-top: 20px;
+    /* text-align: center; */
+    /* font-size: 14px !important; */
+    /* font-style: italic; */
+}
+
+h4.card-title.namloca {
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    font-weight: bold;
+    color: #eb6e8c;
+}
+
+p.card-text.textcmt {
+    text-align: center;
+    font-size: 14px !important;
+    font-style: italic;
+}
+
+.chucnang {
+    padding-bottom: 1px;
+    /* padding-left: 5px; */
+}
+
+._mainlocation {
+    margin-top: 8%;
+}

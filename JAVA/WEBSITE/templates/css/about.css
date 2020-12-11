@@ -1,0 +1,47 @@
+* {}
+
+.container-policy-reward {
+    margin-top: 3%;
+}
+
+footer {}
+
+h2.title {
+    color: #eb6e8c;
+    font-size: 22px;
+}
+
+p {
+    font-size: 14px;
+}
+
+p.bold-roboto.mar-b-10 {}
+
+ul.liststyle-cir {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+h1.uppercase.address {
+    font-size: 22px !important;
+    color: #eb6e8c;
+    margin-top: 4%;
+}
+
+h1.uppercase.titleaddress {
+    color: #eb6e8c;
+    font-size: 22px !important;
+}
+
+h1.uppercase.titleabout {
+    text-align: center;
+    color: #eb6e8c;
+    font-size: 40px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+div#_mainabout {
+    margin-top: 10%;
+}

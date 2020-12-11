@@ -1,0 +1,22 @@
+#calender .weekcal{
+    list-style-type: none;
+    overflow: hidden;
+}
+#calender .weekcal li{
+    width: 14%;
+    float: left;
+}
+.none{
+    padding:12px;
+}
+#modalActivity .modal-header {
+    background-color: #eb6e8c;
+    color: white;
+}
+#modalActivity .close span{
+    color: white;
+    font-size:28px;
+}
+#alldateinweek a{
+    color: black;
+}

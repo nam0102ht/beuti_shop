@@ -1,0 +1,91 @@
+* {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.container.navcontain {
+    width: 60% !important;
+}
+
+#_main ._datetimeview p._pdatetime {
+    font-size: 12px;
+    /* font-weight: lighter; */
+    color: #00000070;
+}
+
+#_main button.btn.btn-primary.btnsaveposts.waves-effect.waves-light {
+    background-color: #eb6e8c !important;
+    width: 149px;
+    float: right;
+    margin: 0;
+    padding: 10px;
+}
+
+#_main p.textsavepost {
+    padding: 0;
+    margin: 0px 0;
+    font-size: 12px;
+}
+
+#_main h1._titlepost {
+    font-size: 26px;
+    color: #eb6e8c;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+div#_main {
+    margin-top: 10%;
+}
+
+#_main .row.contentpost {
+    padding-bottom: 0px;
+}
+
+#_main span._sighn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#_main p.pcontent {
+    line-height: 26px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.imgcontent {
+    text-align: center;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+#_main ._datetimeview p._pdatetime {
+    font-size: 12px;
+    /* font-weight: lighter; */
+    color: #00000070;
+}
+
+#_main button.btn.btn-primary.btnsaveposts.waves-effect.waves-light {
+    background-color: #eb6e8c !important;
+    width: 149px;
+    float: right;
+    margin: 0;
+    padding: 10px;
+}
+
+#_main p.textsavepost {
+    padding: 0;
+    margin: 0px 0;
+    font-size: 12px;
+}
+
+#_main h1._titlepost {
+    font-size: 26px;
+    color: #eb6e8c;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+div#_main {
+    margin-top: 10%;
+}

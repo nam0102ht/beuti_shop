@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+    </title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+    <script src="../HTML/js/blogpost.js"></script>
+    <link href="../fontawesome/css/all.css" rel="stylesheet">
+    <link href="../css/home.css" rel="stylesheet">
+    <link href="../css/profile.css" rel="stylesheet">
+    <link href="../css/profile-thongtin.css" rel="stylesheet">
+    <link href="../css/profile-matkhau.css" rel="stylesheet">
+    <link href="../css/blogpost.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    </meta>
+    </meta>
+</head>
+
+<body>
+
+    <div id="_header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbarheader">
+            <div class="container navcontain">
+                <div class="row rowheader">
+                    <div class="col-sm-2 logoheader">
+                        <a class="navbar-brand navlogo"><img src="../images/logo.png" alt=""></a>
+                        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="col-sm-6 _sm8head">
+
+                        <div id="my-nav" class="collapse navbar-collapse lists">
+
+                            <ul class="navbar-nav mr-auto listitems float-sm-right text-xs-center">
+
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="postblog.html">Bài viết</a>
+                                </li>
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="sharetips.html">Bộ sưu tập</a>
+                                </li>
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="#">Địa điểm</a>
+                                </li>
+                                <li class="nav-item itemhead onlycosmetics">
+                                    <div class="dropdown cosmetics">
+                                        <button class="dropbtn btncosmetics">Mỹ Phẩm</button>
+                                        <div class="dropdown-content contentcosmetics">
+                                            <h6 class="dropdown-header _listcosmetics">Tất cả mỹ phẩm</h6>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Tóc</a>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Mặt</a>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Da</a>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Móng (Tay/ Chân)</a>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="#">Điểm danh</a>
+                                </li>
+                                <li class="nav-item  itemhead itemicon">
+                                    <div class="dropdown dropdownbars" style="float:right;">
+                                        <button class="dropbtn btnbars"><i class="fas fa-bars"></i></button>
+                                        <div class="dropdown-content contentbars">
+                                            <a class="itembars" href="#">Giới thiệu về XXXX</a>
+                                            <hr class="hrbas">
+                                            <a class="itembars" href="#">Chính sách điểm thưởng</a>
+                                            <hr class="hrbas">
+                                            <a class="itembars" href="#">Top thành viên</a>
+                                            <hr class="hrbas">
+                                            <a class="itembars" href="#">Góp ý</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item  itemhead itemicon">
+
+                                    <div class="dropdown dropdownplus" style="float:right;">
+                                        <button class="dropbtn btnplus"><i class="fas fa-plus"></i></button>
+                                        <div class="dropdown-content contentplus">
+                                            <p class="menuplus">Bạn có thể</p>
+                                            <hr class="hrplus">
+                                            <a class="itemplus" href="#">Tạo địa điểm</a>
+                                            <hr class="hrplus">
+                                            <a class="itemplus" href="#">Tạo sản phẩm mới</a>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item itemhead itemicon">
+
+                                    <div class="dropdown dropdownnotification" style="float: right;">
+                                        <button type="button" class="btnnotification" data-toggle="dropdown">
+                                            <i class="fas fa-bell"></i>
+                                        </button>
+                                        <div class="dropdown-menu menunotification">
+                                            <p class="notification">Thông báo</p>
+                                            <hr class="hrnotification">
+                                            <a class="dropdown-item itemnotification" href="#">Link 2</a>
+                                            <hr class="hrnotification">
+                                            <a class="dropdown-item itemnotification" href="#">Link 2</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <!-- <li class="nav-item itemhead">
+                                    <a class="nav-link avatarhead" href="#">
+
+                                    </a>
+                                </li> -->
+                                <li class="nav-item itemhead">
+                                    <div class="dropdown dropdownprofile">
+                                        <button type="button" class="btnprofile" data-toggle="dropdown">
+                                            <img class="img-fluid avatarprofile" src="../images/anhdaidien.jpg" alt="">
+                                            <p class="account">Quy luu</p>
+
+                                        </button>
+                                        <div class="dropdown-menu menuprofile">
+                                            <h6 class="dropdown-header _title"><i class="fas fa-plus-square iconprofile"></i>Hoạt động</h6>
+
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Hình ảnh</a>
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Quan tâm</a>
+                                            <h6 class="dropdown-header _title"><i class="fas fa-save iconprofile"></i>Lưu trữ</h6>
+
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Mỹ phẩm</a>
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Địa điểm</a>
+                                            <h6 class="dropdown-header _title"><i class="fas fa-user-alt iconprofile"></i>Tài khoản</h6>
+                                            <a class="dropdown-item itemprofile" href="profile-nhatky.html">Điểm thưởng</a>
+                                            <a class="dropdown-item itemprofile" href="profile-thongtin.html">Cập nhật tài khoản</a>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </nav>
+    </div>
+    <div id="_mainprofile">
+        <div class="container containpro">
+            <div class="row rowimg">
+                <div class="_info">
+                    <div class="layer1">
+                        <img class="imgcover" src="../images/banner-profile.png" alt="">
+                    </div>
+                    <div class="layer2">
+                        <img src="../images/anhdaidien.jpg" class="imgavt img-fluid" alt="">
+                        <form class="formimages">
+
+
+                            <input type="file" name="pic" class="imputavt" style="color:transparent; width:100px;" />
+                            <input type="file" name="pic" class="imputcover" style="color:transparent; width:100px;" />
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row rownavpro">
+                <div class="col-sm-2 sm2pro">
+                    <div class="textinfo">
+                        Trang cá nhân
+                    </div>
+                    <nav class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link  linkpro" href="../profile-nhatky.html"><i
+                                    class="fas fa-check-circle"></i> Nhật ký</a>
+                        </li>
+
+
+
+                        <li class="nav-item itempro">
+                            <a class="nav-link  linkpro" href="profile-thongtin.html"><i
+                                    class="fas fa-check-circle"></i> Thông tin cá nhân</a>
+
+                        </li>
+                        <li class="nav-item itempro">
+                            <a class="nav-link active linkpro" href="../HTML/profile/profile-matkhau.html"><i
+                                    class="fas fa-check-circle"></i> Mật khẩu</a>
+                        </li>
+
+                        <li class="nav-item itempro">
+                            <a class="nav-link linkpro" href="../HTML/profile/profile-thongbao.html"><i
+                                    class="fas fa-check-circle"></i> Thông báo</a>
+                        </li>
+                    </nav>
+
+                </div>
+                <div class="col-sm-10 sm10pro">
+
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <h3 style="text-align:center">Đổi mật khẩu</h3>
+                            <form Id="signupform" action="" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="" />
+                                <fieldset style="padding: 15px;">
+                                    <div class="form-group has-feedback">
+                                        <a href="" class="iconprivate"> <i class="fas fa-lock"></i></a>
+                                        <input class="form-control" data-val="true" data-val-length="Mật khẩu dài ít nhất 4 ký tự" data-val-length-max="255" data-val-length-min="4" data-val-required="Nhập mật khẩu mới" id="NewPassword" name="NewPassword" placeholder="Mật khẩu mới" type="password"
+                                        />
+                                        <span class="field-validation-valid" data-valmsg-for="NewPassword" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <a href="" class="iconprivate"> <i class="fas fa-lock"></i></a>
+                                        <input class="form-control" data-val="true" data-val-equalto="Xác nhận mật khẩu không đúng" data-val-equalto-other="*.NewPassword" data-val-required="Xác nhận mật khẩu mới" id="ConfirmNewPassword" name="ConfirmNewPassword" placeholder="Xác nhận mật khẩu mới"
+                                            type="password" />
+                                        <span class="field-validation-valid" data-valmsg-for="ConfirmNewPassword" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-3">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <input type="submit" value="Đổi mật khẩu" id="bt_submit" class="btn btn-primary" style="width:100%" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="info">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="">Số giấy phép</a>
+                        <p>645/GP-BTTT <br> Cấp ngày 25/11/2017</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul>
+                            <li>
+                                <a href="">Giới thiệu</a>
+
+                            </li>
+                            <li>
+                                <a href="">Tài khoản</a>
+
+                            </li>
+                            <li>
+                                <a href="">Viêc làm</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul>
+                            <li>
+                                <a href="">Quy chế</a>
+
+                            </li>
+                            <li>
+                                <a href="">Chính sách bảo mật</a>
+
+                            </li>
+                            <li>
+                                <a href="">Tranh chấp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 linkicon">
+                        <a href="">Theo dõi chúng tôi trên</a>
+                        <li>
+                            <i class="fab fa-facebook"> </i>
+                            <p>Facebook</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <p>Instagram</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-youtube"></i>
+                            <p>Youtube</p>
+                        </li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+
+            <div class="col-sm-12">
+                <div class="copyright"> Copyright © 2016 hihihi.vn <br> A Foody Corporation - Business License No. 09821245 - HCM City</div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

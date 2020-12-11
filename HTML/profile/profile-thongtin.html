@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+    </title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+    <script src="../HTML/js/blogpost.js"></script>
+    <link href="../fontawesome/css/all.css" rel="stylesheet">
+    <link href="../css/home.css" rel="stylesheet">
+    <link href="../css/profile.css" rel="stylesheet">
+    <link href="../css/profile-thongtin.css" rel="stylesheet">
+    <link href="../css/blogpost.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    </meta>
+    </meta>
+</head>
+
+<body>
+
+    <div id="_header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbarheader">
+            <div class="container navcontain">
+                <div class="row rowheader">
+                    <div class="col-sm-2 logoheader">
+                        <a class="navbar-brand navlogo"><img src="../images/logo.png" alt=""></a>
+                        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="col-sm-6 _sm8head">
+
+                        <div id="my-nav" class="collapse navbar-collapse lists">
+
+                            <ul class="navbar-nav mr-auto listitems float-sm-right text-xs-center">
+
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="postblog.html">Bài viết</a>
+                                </li>
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="sharetips.html">Bộ sưu tập</a>
+                                </li>
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="#">Địa điểm</a>
+                                </li>
+                                <li class="nav-item itemhead onlycosmetics">
+                                    <div class="dropdown cosmetics">
+                                        <button class="dropbtn btncosmetics">Mỹ Phẩm</button>
+                                        <div class="dropdown-content contentcosmetics">
+                                            <h6 class="dropdown-header _listcosmetics">Tất cả mỹ phẩm</h6>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Tóc</a>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Mặt</a>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Da</a>
+                                            <hr class="cosmetic">
+                                            <a class="itemcosmetics" href="#">Móng (Tay/ Chân)</a>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item itemhead">
+                                    <a class="nav-link" href="#">Điểm danh</a>
+                                </li>
+                                <li class="nav-item  itemhead itemicon">
+                                    <div class="dropdown dropdownbars" style="float:right;">
+                                        <button class="dropbtn btnbars"><i class="fas fa-bars"></i></button>
+                                        <div class="dropdown-content contentbars">
+                                            <a class="itembars" href="#">Giới thiệu về XXXX</a>
+                                            <hr class="hrbas">
+                                            <a class="itembars" href="#">Chính sách điểm thưởng</a>
+                                            <hr class="hrbas">
+                                            <a class="itembars" href="#">Top thành viên</a>
+                                            <hr class="hrbas">
+                                            <a class="itembars" href="#">Góp ý</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item  itemhead itemicon">
+
+                                    <div class="dropdown dropdownplus" style="float:right;">
+                                        <button class="dropbtn btnplus"><i class="fas fa-plus"></i></button>
+                                        <div class="dropdown-content contentplus">
+                                            <p class="menuplus">Bạn có thể</p>
+                                            <hr class="hrplus">
+                                            <a class="itemplus" href="#">Tạo địa điểm</a>
+                                            <hr class="hrplus">
+                                            <a class="itemplus" href="#">Tạo sản phẩm mới</a>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item itemhead itemicon">
+
+                                    <div class="dropdown dropdownnotification" style="float: right;">
+                                        <button type="button" class="btnnotification" data-toggle="dropdown">
+                                            <i class="fas fa-bell"></i>
+                                        </button>
+                                        <div class="dropdown-menu menunotification">
+                                            <p class="notification">Thông báo</p>
+                                            <hr class="hrnotification">
+                                            <a class="dropdown-item itemnotification" href="#">Link 2</a>
+                                            <hr class="hrnotification">
+                                            <a class="dropdown-item itemnotification" href="#">Link 2</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <!-- <li class="nav-item itemhead">
+                                    <a class="nav-link avatarhead" href="#">
+
+                                    </a>
+                                </li> -->
+                                <li class="nav-item itemhead">
+                                    <div class="dropdown dropdownprofile">
+                                        <button type="button" class="btnprofile" data-toggle="dropdown">
+                                            <img class="img-fluid avatarprofile" src="../images/anhdaidien.jpg" alt="">
+                                            <p class="account">Quy luu</p>
+
+                                        </button>
+                                        <div class="dropdown-menu menuprofile">
+                                            <h6 class="dropdown-header _title"><i class="fas fa-plus-square iconprofile"></i>Hoạt động</h6>
+
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Hình ảnh</a>
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Quan tâm</a>
+                                            <h6 class="dropdown-header _title"><i class="fas fa-save iconprofile"></i>Lưu trữ</h6>
+
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Mỹ phẩm</a>
+                                            <a class="dropdown-item itemprofile" href="../profile-nhatky.html">Địa điểm</a>
+                                            <h6 class="dropdown-header _title"><i class="fas fa-user-alt iconprofile"></i>Tài khoản</h6>
+                                            <a class="dropdown-item itemprofile" href="profile-nhatky.html">Điểm thưởng</a>
+                                            <a class="dropdown-item itemprofile" href="profile-thongtin.html">Cập nhật tài khoản</a>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </nav>
+    </div>
+    <div id="_mainprofile">
+        <div class="container containpro">
+            <div class="row rowimg">
+                <div class="_info">
+                    <div class="layer1">
+                        <img class="imgcover" src="../images/banner-profile.png" alt="">
+                    </div>
+                    <div class="layer2">
+                        <img src="../images/anhdaidien.jpg" class="imgavt img-fluid" alt="">
+                        <form class="formimages">
+
+
+                            <input type="file" name="pic" class="imputavt" style="color:transparent; width:100px;" />
+                            <input type="file" name="pic" class="imputcover" style="color:transparent; width:100px;" />
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row rownavpro">
+                <div class="col-sm-2 sm2pro">
+                    <div class="textinfo">
+                        Trang cá nhân
+                    </div>
+                    <nav class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link  linkpro" href="../profile-nhatky.html"><i
+                                    class="fas fa-check-circle"></i> Nhật ký</a>
+                        </li>
+
+
+
+                        <li class="nav-item itempro">
+                            <a class="nav-link active linkpro" href="../HTML/profile/profile-thongtin.html"><i
+                                    class="fas fa-check-circle"></i> Thông tin cá nhân</a>
+
+                        </li>
+                        <li class="nav-item itempro">
+                            <a class="nav-link linkpro" href="../HTML/profile/profile-matkhau.html"><i
+                                    class="fas fa-check-circle"></i> Mật khẩu</a>
+                        </li>
+
+                        <li class="nav-item itempro">
+                            <a class="nav-link linkpro" href="../HTML/profile/profile-thongbao.html"><i
+                                    class="fas fa-check-circle"></i> Thông báo</a>
+                        </li>
+                    </nav>
+
+                </div>
+                <div class="col-sm-10 sm10pro">
+                    <ul class="nav nav-tabs navtabinfo" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active linkiteminfo" id="infoaccount-tab" data-toggle="tab" href="#infoaccount" role="tab" aria-controls="infoaccount" aria-selected="true">Thông
+                                tin cá nhân</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link linkiteminfo" id="infobeauty-tab" data-toggle="tab" href="#infobeauty" role="tab" aria-controls="infobeauty" aria-selected="false">Thông tin làm đẹp</a>
+                        </li> -->
+
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div id="infoaccount" class="tab-pane active">
+                            <div class="edit-profile-basic-info">
+                                <form action="" id="UpdateProfileBasicInfoForm" method="post">
+                                    <div class="widget-info-edit clearfix">
+                                        <label>Tên:</label>
+                                        <input class="firsname" id="FirstName" name="FirstName" tabindex="1" type="text" value="Quy" />
+                                    </div>
+                                    <div class="widget-info-edit clearfix">
+                                        <label>Họ:</label>
+                                        <input class="lastname" id="LastName" name="LastName" tabindex="2" type="text" value="Hát" />
+                                    </div>
+                                    <div class="widget-info-edit clearfix">
+                                        <label>Tình trạng hôn nhân:</label>
+                                        <select class="relationship" data-val="true" data-val-number="The field RelationshipStatus must be a number." id="RelationshipStatus" name="RelationshipStatus" tabindex="3">
+                                            <option value="1">Độc thân</option>
+                                            <option value="2">Đã kết hôn</option>
+                                            <option value="3">Phức tạp</option>
+                                        </select>
+                                        <select class="pull-right" data-val="true" data-val-number="The field PublishedTypeStatus must be a number." data-val-required="The PublishedTypeStatus field is required." id="PublishedTypeStatus" name="PublishedTypeStatus">
+                                            <option value="1">Không hiển thị</option>
+                                            <option selected="selected" value="0">Hiển thị</option>
+                                        </select>
+                                    </div>
+                                    <div class="widget-info-edit clearfix">
+                                        <label>Ngày sinh:</label>
+                                        <select class="date" data-bind="value: dateOfBirthDay" name="DateOfBirthDay">
+                                            <option value='0'>Ngày</option>
+                                            <option value='1'>1</option>
+                                            <option value='2'>2</option>
+                                            <option value='3'>3</option>
+                                            <option value='4'>4</option>
+                                            <option value='5'>5</option>
+                                            <option value='6'>6</option>
+                                            <option value='7'>7</option>
+                                            <option value='8'>8</option>
+                                            <option value='9'>9</option>
+                                            <option value='10'>10</option>
+                                            <option value='11'>11</option>
+                                            <option value='12'>12</option>
+                                            <option value='13'>13</option>
+                                            <option value='14'>14</option>
+                                            <option value='15'>15</option>
+                                            <option value='16'>16</option>
+                                            <option value='17'>17</option>
+                                            <option value='18'>18</option>
+                                            <option value='19'>19</option>
+                                            <option value='20'>20</option>
+                                            <option value='21'>21</option>
+                                            <option value='22'>22</option>
+                                            <option value='23'>23</option>
+                                            <option value='24'>24</option>
+                                            <option value='25'>25</option>
+                                            <option value='26'>26</option>
+                                            <option value='27'>27</option>
+                                            <option value='28'>28</option>
+                                            <option value='29'>29</option>
+                                            <option value='30'>30</option>
+                                            <option value='31'>31</option>
+                                        </select>
+                                        <select class="month" data-bind="value: dateOfBirthMonth" name="DateOfBirthMonth">
+                                            <option value='0'>Tháng</option>
+                                            <option value='1'>Tháng 1</option>
+                                            <option value='2'>Tháng 2</option>
+                                            <option value='3'>Tháng 3</option>
+                                            <option value='4'>Tháng 4</option>
+                                            <option value='5'>Tháng 5</option>
+                                            <option value='6'>Tháng 6</option>
+                                            <option value='7'>Tháng 7</option>
+                                            <option value='8'>Tháng 8</option>
+                                            <option value='9'>Tháng 9</option>
+                                            <option value='10'>Tháng 10</option>
+                                            <option value='11'>Tháng 11</option>
+                                            <option value='12'>Tháng 12</option>
+                                        </select><select class="year" data-bind="value: dateOfBirthYear" name="DateOfBirthYear">
+                                            <option value='0'>Năm</option>
+                                            <option value='1969'>1969</option>
+                                            <option value='1970'>1970</option>
+                                            <option value='1971'>1971</option>
+                                            <option value='1972'>1972</option>
+                                            <option value='1973'>1973</option>
+                                            <option value='1974'>1974</option>
+                                            <option value='1975'>1975</option>
+                                            <option value='1976'>1976</option>
+                                            <option value='1977'>1977</option>
+                                            <option value='1978'>1978</option>
+                                            <option value='1979'>1979</option>
+                                            <option value='1980'>1980</option>
+                                            <option value='1981'>1981</option>
+                                            <option value='1982'>1982</option>
+                                            <option value='1983'>1983</option>
+                                            <option value='1984'>1984</option>
+                                            <option value='1985'>1985</option>
+                                            <option value='1986'>1986</option>
+                                            <option value='1987'>1987</option>
+                                            <option value='1988'>1988</option>
+                                            <option value='1989'>1989</option>
+                                            <option value='1990'>1990</option>
+                                            <option value='1991'>1991</option>
+                                            <option value='1992'>1992</option>
+                                            <option value='1993'>1993</option>
+                                            <option value='1994'>1994</option>
+                                            <option value='1995'>1995</option>
+                                            <option value='1996'>1996</option>
+                                            <option value='1997'>1997</option>
+                                            <option value='1998'>1998</option>
+                                            <option value='1999'>1999</option>
+                                            <option value='2000'>2000</option>
+                                            <option value='2001'>2001</option>
+                                            <option value='2002'>2002</option>
+                                            <option value='2003'>2003</option>
+                                            <option value='2004'>2004</option>
+                                            <option value='2005'>2005</option>
+                                            <option value='2006'>2006</option>
+                                            <option value='2007'>2007</option>
+                                            <option value='2008'>2008</option>
+                                            <option value='2009'>2009</option>
+                                            <option value='2010'>2010</option>
+                                            <option value='2011'>2011</option>
+                                            <option value='2012'>2012</option>
+                                            <option value='2013'>2013</option>
+                                            <option value='2014'>2014</option>
+                                            <option value='2015'>2015</option>
+                                            <option value='2016'>2016</option>
+                                            <option value='2017'>2017</option>
+                                            <option value='2018'>2018</option>
+                                            <option value='2019'>2019</option>
+                                        </select>
+                                        <select class="pull-right" data-val="true" data-val-number="The field PublishedTypeOld must be a number." data-val-required="The PublishedTypeOld field is required." id="PublishedTypeOld" name="PublishedTypeOld">
+                                            <option value="1">Không hiển thị</option>
+                                            <option selected="selected" value="0">Hiển thị</option>
+                                        </select>
+                                    </div>
+                                    <div class="widget-info-edit clearfix">
+                                        <label class="sex">Giới tính:</label>
+                                        <input checked="checked" id="Gender" name="Gender" style="margin-left:-5px;" type="radio" value="M" /><label style="width:70px;">Nam</label>
+                                        <input id="Gender" name="Gender" type="radio" value="F" /><label style="width:70px;">Nữ</label>
+                                        <select class="pull-right" data-val="true" data-val-number="The field PublishedTypeGender must be a number." data-val-required="The PublishedTypeGender field is required." id="PublishedTypeGender" name="PublishedTypeGender">
+                                            <option value="1">Không hiển thị</option>
+                                            <option selected="selected" value="0">Hiển thị</option>
+                                        </select>
+                                    </div>
+                                    <label class="alert-success" id="id-UpdateProfileBasicInfoForm-success" style="display:none">Cập nhật thành công</label>
+                                    <input type="submit" id="save-change-edit-basic-profile" class="btn btn-info" value="Lưu thay đổi" />
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <!-- <div class="tab-pane fade" id="infobeauty" role="tabpanel" aria-labelledby="infobeauty-tab">
+
+                        </div> -->
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="info">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="">Số giấy phép</a>
+                        <p>645/GP-BTTT <br> Cấp ngày 25/11/2017</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul>
+                            <li>
+                                <a href="">Giới thiệu</a>
+
+                            </li>
+                            <li>
+                                <a href="">Tài khoản</a>
+
+                            </li>
+                            <li>
+                                <a href="">Viêc làm</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul>
+                            <li>
+                                <a href="">Quy chế</a>
+
+                            </li>
+                            <li>
+                                <a href="">Chính sách bảo mật</a>
+
+                            </li>
+                            <li>
+                                <a href="">Tranh chấp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 linkicon">
+                        <a href="">Theo dõi chúng tôi trên</a>
+                        <li>
+                            <i class="fab fa-facebook"> </i>
+                            <p>Facebook</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <p>Instagram</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-youtube"></i>
+                            <p>Youtube</p>
+                        </li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+
+            <div class="col-sm-12">
+                <div class="copyright"> Copyright © 2016 hihihi.vn <br> A Foody Corporation - Business License No. 09821245 - HCM City</div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

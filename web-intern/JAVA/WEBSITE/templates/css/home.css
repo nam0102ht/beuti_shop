@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-group:focus {
+    outline: none;
+}
+
+.header .btn-group:focus {
+    outline: none !important;
+}
+
+
+/* css cho header  */
+
+.header .nav-item a.profile {
+    display: block;
+    padding-top: 9%;
+    color: #fd5600;
+    text-decoration: none;
+}
+
+.header i.fas.fa-bars {
+    color: #fd5600;
+}
+.navbar-expand-lg{
+    background-color: white !important;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.header a.nav-link.disabled {
+    color: #fd5600 !important;
+}
+
+.header img.avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.header ul.navbar-nav.mr-auto {
+    display: -webkit-inline-box;
+}
+
+.header ul.navbar-nav.mr-auto {
+    padding: 2%;
+}
+
+
+.header li.nav-item {
+    display: block;
+    margin-right: 5%;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    /* padding-top: 0%; */
+    text-transform: UPPERCASE;
+}
+
+.header li.nav-item.iconfa {
+    padding-left: 5%;
+}
+
+.header .nav-item.profile button {
+    background: none;
+    border: none;
+    padding-top: 11%;
+    color: black;
+}
+
+.header .btn-group button:focus {
+    outline: none;
+}
+
+.header a.nav-link {
+    color: #fd5600 !important;
+}
+
+a.nav-link {}
+
+.header li.nav-item.profile {
+    display: -webkit-inline-box;
+    margin-top: -5%;
+    text-transform: inherit;
+}
+
+.header li.nav-item.dropdown.bars {
+    margin-right: 0%;
+    display: block;
+    padding-top: 1.4%;
+}
+
+.header li.nav-item.dropdown.cosmetics {
+    padding-top: 1.4%;
+}
+
+.header li.nav-item.dropdown.cosmetics {
+    color: #fd5600;
+}
+
+.dropdown.cosmetics .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 13px;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown.cosmetics:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown.cosmetics:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/* ------ */
+
+.dropdown.bars {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown.bars .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 13px;
+}
+
+.dropdown.bars .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown.bars .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown.bars:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown_menu{
+    width:180px;
+    padding:10px;
+}
+.list{
+    font-size:15px;
+}
+#dropdown_menu .dropdown-item{
+    font-size: 14px !important;
+}
+.ico_avartar{
+    width: 45px;
+}
+.avatarprofile{
+    border-radius: 50%;
+}
+/* end css cho header  */
+#sharedtip{
+    padding-bottom: 5%;
+}
+#sharedtip .news-related .card-title{
+    font-size:14px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+#sharedtip .news-related .card-body{
+    height: 82px;
+}
+.focusDN:focus{
+    outline: none;
+}

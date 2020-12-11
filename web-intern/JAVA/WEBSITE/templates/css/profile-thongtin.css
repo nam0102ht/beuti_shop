@@ -1,0 +1,63 @@
+* {}
+
+.widget-info-edit.clearfix {
+    padding-top: 20px;
+}
+
+input#save-change-edit-basic-profile {
+    background: #eb6e8c !important;
+    font-size: 14px;
+}
+input#datepicker{
+    margin-left:162px;
+}
+span.waves-input-wrapper.waves-effect.waves-light {
+    display: block;
+    left: 224px;
+    /* background: pink; */
+    /* font-size: 26px; */
+}
+
+.tab-content label {
+    font-size: 14px;
+    color: #eb6e8c;
+}
+
+select#PublishedTypeGender {
+    margin-left: 83px;
+}
+
+select#PublishedTypeOld {
+    margin-left: 38px;
+}
+
+select#PublishedTypeStatus {
+    margin-left: 154px;
+}
+
+input#Gender {
+    /* margin-left: 155px; */
+}
+
+label.sex {
+    margin-right: 179px;
+}
+
+select.date {
+    margin-left: 163px;
+}
+
+select#RelationshipStatus {
+    empty-cells: 199px;
+    margin-left: 101px;
+}
+
+input#LastName {
+    margin-left: 206px;
+}
+input#email{
+    margin-left: 190px;
+}
+input#FirstName {
+    margin-left: 200px;
+}
